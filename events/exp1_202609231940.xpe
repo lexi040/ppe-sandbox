@@ -1,0 +1,15 @@
+#Expyriment 1.0.1 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 23 2026 19:40:51
+#sha1: 59b729
+#modules: 
+#display: size=(800, 800), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='lexi-Yoga-7-14IRL8', release='7.0.0-31-generic', version='#31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+550,stderr,received,'Traceback (most recent call last):'
+550,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/exp1.py", line 21, in <module>'
+550,stderr,received,'    square = expyriment.stimuli.Rectangle(size, (255,255,255), line_width , position )'
+550,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+550,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/stimuli/_rectangle.py", line 62, in __init__'
+551,stderr,received,'    elif corner_rounding < 0 or corner_rounding > 100:'
+551,stderr,received,'         ^^^^^^^^^^^^^^^^^^^'
+551,stderr,received,"TypeError: '<' not supported between instances of 'tuple' and 'int'"

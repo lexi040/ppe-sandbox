@@ -1,0 +1,17 @@
+#Expyriment 1.0.1 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 23 2026 19:50:22
+#sha1: c2776a
+#modules: 
+#display: size=(800, 800), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='lexi-Yoga-7-14IRL8', release='7.0.0-31-generic', version='#31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1206,design,log,
+#design: #exp: test
+#design: block_cnt,block_id,trial_cnt,trial_id
+1206,design,logged,
+1206,Experiment,started
+1207,Stimulus,presented,3
+1207,stderr,received,'Traceback (most recent call last):'
+1207,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/exp1.py", line 29, in <module>'
+1207,stderr,received,'    expyriment.misc.Clock.wait_seconds(5)'
+1207,stderr,received,"TypeError: Clock.wait_seconds() missing 1 required positional argument: 'time_sec'"

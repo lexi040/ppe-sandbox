@@ -1,0 +1,17 @@
+#Expyriment 1.0.1 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 23 2026 18:58:09
+#sha1: fbf9da
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='lexi-Yoga-7-14IRL8', release='7.0.0-31-generic', version='#31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+24935,stderr,received,'Traceback (most recent call last):'
+24936,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/exp1.py", line 35, in <module>'
+24936,stderr,received,'    control.start(skip_ready_screen=True)'
+24936,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 135, in start'
+24936,stderr,received,'    subject_id = ask_for_subject.get(repr(default_number))'
+24936,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+24936,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/io/_textinput.py", line 491, in get'
+24937,stderr,received,'    for inkey, string in keys:'
+24937,stderr,received,'        ^^^^^^^^^^^^^'
+24937,stderr,received,'TypeError: cannot unpack non-iterable NoneType object'

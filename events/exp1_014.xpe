@@ -1,0 +1,35 @@
+#Expyriment 1.0.1 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 23 2026 19:38:48
+#sha1: cebd11
+#modules: 
+#display: size=(800, 800), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='lexi-Yoga-7-14IRL8', release='7.0.0-31-generic', version='#31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1587,design,log,
+#design: #exp: test
+#design: block_cnt,block_id,trial_cnt,trial_id
+1587,design,logged,
+1587,Experiment,started
+1588,stdout,received,'(0.0, 0.0)'
+1589,Stimulus,presented,0
+11130,Experiment,paused
+11133,Stimulus,presented,3
+18383,stderr,received,'Traceback (most recent call last):'
+18383,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/exp1.py", line 27, in <module>'
+18383,stderr,received,'    exp.keyboard.wait()'
+18383,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 381, in wait'
+18383,stderr,received,'    Keyboard.process_control_keys(event):'
+18383,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+18383,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 145, in process_control_keys'
+18384,stderr,received,'    cls.quit_control.call_functions(event_detected_function,'
+18384,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 63, in call_functions'
+18384,stderr,received,'    confirm = cls.end_function('
+18384,stderr,received,'              ^^^^^^^^^^^^^^^^^'
+18384,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 322, in end'
+18384,stderr,received,'    char = Keyboard().wait_char(["y", "n"], process_control_events=False,'
+18384,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+18384,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 482, in wait_char'
+18384,stderr,received,'    _internals.low_performance_sleep()'
+18384,stderr,received,'  File "/home/lexi/m1-s1/exp_approach/ppe-sandbox/venv/lib/python3.12/site-packages/expyriment/_internals.py", line 19, in low_performance_sleep'
+18384,stderr,received,'    sleep(0.0001)'
+18384,stderr,received,'KeyboardInterrupt'

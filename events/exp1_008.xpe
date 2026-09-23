@@ -1,0 +1,15 @@
+#Expyriment 1.0.1 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 23 2026 19:25:46
+#sha1: f25f2a
+#modules: 
+#display: size=(800, 800), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='lexi-Yoga-7-14IRL8', release='7.0.0-31-generic', version='#31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+458,Stimulus,presented,0
+1842,design,log,
+#design: #exp: test
+#design: block_cnt,block_id,trial_cnt,trial_id
+1842,design,logged,
+1842,Experiment,started
+1842,Experiment,ended
+1959,Stimulus,presented,2
